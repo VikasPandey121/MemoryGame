@@ -19,13 +19,17 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
     android:layout_margin="5dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:orientation="horizontal"
-        android:padding="5dp">
+        >
 
         <Button
             android:id="@+id/R1"
@@ -50,12 +54,15 @@
             android:textSize="50sp" />
 
         <Button
-            android:id="@+id/Y1"
+            android:id="@+id/ye2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/shape"
             android:text=".?"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
             android:textColor="@color/white"
             android:textSize="50sp" />
 
@@ -65,6 +72,7 @@
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:orientation="horizontal"
+        >
         android:padding="5dp">
 
         <Button
@@ -75,6 +83,8 @@
             android:background="@drawable/shape"
             android:text=".?"
             android:textColor="@color/white"
+            android:textSize="50sp"
+            android:background="@drawable/shape"/>
             android:textSize="50sp" />
 
         <Button
@@ -105,7 +115,7 @@
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:orientation="horizontal"
-        android:padding="5dp">
+       >
 
         <Button
             android:id="@+id/O2"
@@ -119,7 +129,7 @@
 
         <Button
             android:id="@+id/B1"
-            android:layout_width="0dp"
+            android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
@@ -130,7 +140,26 @@
             android:textSize="50sp" />
 
         <Button
-            android:id="@+id/Y2"
+            android:id="@+id/ye1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text=".?"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:background="@drawable/shape"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/BL2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -177,7 +206,30 @@
             android:background="@drawable/shape"
             android:text=".?"
             android:textColor="@color/white"
+            android:textSize="50sp" android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/G2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text=".?"
+            android:textSize="50sp"
+            android:background="@drawable/shape"/>
             android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/BL1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=".?"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:background="@drawable/shape" />
 
     </LinearLayout>
 </LinearLayout>
@@ -190,6 +242,6 @@
         android:background="@color/blue1"
         android:textColor="@color/white"
         android:textSize="40dp"
-        android:padding="5dp"
+        android:padding="6dp"
         />
 </LinearLayout>
