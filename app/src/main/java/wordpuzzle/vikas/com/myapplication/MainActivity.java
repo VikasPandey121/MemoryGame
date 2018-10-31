@@ -10,11 +10,14 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     Button R1,R2,O1,O2,B1,B2,BL1,BL2,G1,G2,L1,L2;
     int t1;
-    int t2;
+    int t2;//practise
+
 
 
 
     @Override
+
+    @Override//practise
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
