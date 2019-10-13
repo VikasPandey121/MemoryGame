@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 //change color to red
 
-
+//what changes to do on click
         R1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
